@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrenciesLab", "CurrenciesLab\CurrenciesLab.csproj", "{E8463CB3-61E7-452B-8DD4-825569011159}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8463CB3-61E7-452B-8DD4-825569011159}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{E8463CB3-61E7-452B-8DD4-825569011159}.Debug|anycpu.Build.0 = Debug|anycpu
+		{E8463CB3-61E7-452B-8DD4-825569011159}.Release|anycpu.ActiveCfg = Release|anycpu
+		{E8463CB3-61E7-452B-8DD4-825569011159}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+EndGlobal
