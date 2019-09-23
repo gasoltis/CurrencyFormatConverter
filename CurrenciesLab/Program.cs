@@ -21,32 +21,39 @@ namespace CurrenciesLab
             double max;
 
             //Get User Input
-            Console.Write("Please Enter a Dollar Amount: $");
+            Console.WriteLine("Please Enter a Dollar Amount: $");
             dollar1 = double.Parse(Console.ReadLine());
 
             //Get User Input
-            Console.Write("Please Enter a Dollar Amount: $");
+            Console.WriteLine("Please Enter a Dollar Amount: $");
             dollar2 = double.Parse(Console.ReadLine());
 
-            Console.Write("Please Enter a Dollar Amount: $");
+            Console.WriteLine("Please Enter a Dollar Amount: $");
             dollar3 = double.Parse(Console.ReadLine());
 
             //Get Total
             total = (dollar1 + dollar2 + dollar3);
+            
 
             //Get Average
-            average = (dollar1 + dollar2 + dollar3 / 3);
+            average = ((dollar1 + dollar2 + dollar3) / 3);
+        
 
-
-            // Get Max
+            //Get Max
             max = Math.Max(dollar1, Math.Max(dollar2, dollar3));
-
 
             // Get Min
             min = Math.Min(dollar1, Math.Min(dollar2, dollar3));
 
-        
-      
+            //Print Total, Average, Max and Min
+
+            Console.WriteLine("The Total is: " + total.ToString("C", CultureInfo.CreateSpecificCulture("en-us")));
+            Console.WriteLine("The Average is: " + average.ToString("C", CultureInfo.CreateSpecificCulture("en-us")));
+            Console.WriteLine("The min is: " + min.ToString("C", CultureInfo.CreateSpecificCulture("en-us")));
+            Console.WriteLine("The max is: " + max.ToString("C", CultureInfo.CreateSpecificCulture("en-us")));
+
+
+
 
             //Print Total in US, Swedish, Japanese and Thai
             Console.WriteLine("The Total in US is: " + total.ToString("C", CultureInfo.CreateSpecificCulture("en-us")));
@@ -60,4 +67,4 @@ namespace CurrenciesLab
         }
 
     }
-    }
+}

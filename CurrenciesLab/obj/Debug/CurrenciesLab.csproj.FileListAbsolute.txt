@@ -1,6 +1,5 @@
-/Users/ginakendell/Projects/CurrenciesLab/CurrenciesLab/obj/Debug/CurrenciesLab.csprojAssemblyReference.cache
-/Users/ginakendell/Projects/CurrenciesLab/CurrenciesLab/obj/Debug/CurrenciesLab.csproj.CoreCompileInputs.cache
 /Users/ginakendell/Projects/CurrenciesLab/CurrenciesLab/bin/Debug/CurrenciesLab.exe
 /Users/ginakendell/Projects/CurrenciesLab/CurrenciesLab/bin/Debug/CurrenciesLab.pdb
+/Users/ginakendell/Projects/CurrenciesLab/CurrenciesLab/obj/Debug/CurrenciesLab.csproj.CoreCompileInputs.cache
 /Users/ginakendell/Projects/CurrenciesLab/CurrenciesLab/obj/Debug/CurrenciesLab.exe
 /Users/ginakendell/Projects/CurrenciesLab/CurrenciesLab/obj/Debug/CurrenciesLab.pdb
